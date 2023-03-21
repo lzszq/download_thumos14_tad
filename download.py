@@ -21,6 +21,14 @@ def download(keys, key_type):
 
 
 if __name__ == '__main__':
+    try:
+        os.mkdir('./validation')
+    except:
+        pass
+    try:
+        os.mkdir('./test')
+    except:
+        pass
     validation_keys, test_keys = get_key()
     download(validation_keys, 'validation')
     download(test_keys, 'test')
