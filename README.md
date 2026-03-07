@@ -22,8 +22,8 @@
 ## 3. 🚀 Quick Start
 
 ### Requirements
-* Python 3.8+
-* `requests`, `tqdm` (See `requirements.txt`)
+* Python 3.10+
+* `requests` (See `requirements.txt`)
 
 ### Installation
 Clone the repository and install the required dependencies:
